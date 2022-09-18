@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Libre+Baskerville:wght@700&family=Playfair+Display:wght@600&family=Roboto+Slab:wght@700&display=swap');
+
+
+body {
+
+
+        font-size: 15pt;
+        transition: 0.5sease-in-out;
+
+
+}
+
+.bt {
+        width: 90%;
+        height: 50px;
+        align-content: center;
+        position: relative;
+        left: 20px;
+        border: 1px solid#9145FF;
+        background: #FFFFFF;
+        border-radius: 30px;
+        color: #7B21FF;
+        font-weight: bolder;
+
+}
+
+h2 {
+        position: relative;
+        top: 50px;
+}
+
+.ch {
+        height: 30px;
+        width: 30px;
+}
+
+.background img {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: 50px;
+}
+
+.h3 {
+        position: relative;
+        top: -350px;
+        font-size: 15px;
+        font-weight: 200;
+        color: #FFFFFF;
+
+}
+
+.h3 span {
+        font-size: 55px;
+        font-weight: 1000;
+        color: #FFFFFF;
+}
+
+.button {
+        position: relative;
+        top: -330px;
+        left: 90px;
+        background: #FF1986;
+        border: none;
+        border-radius: 30px;
+        height: 50px;
+        width: 250px;
+        color: #fff;
+        font-weight: bold;
+}
+
+.flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        perspective: 1000px;
+}
+
+.flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        border-radius: 20px;
+}
+
+.flip-card-front {
+        background-color: #bbb;
+        color: black;
+
+}
+
+.flip-card-back {
+        background-color: #F0E8FF;
+        color: #000000;
+        transform: rotateY(180deg);
+}
+
+img {
+        pointer-events: none;
+}
+
+div .services {
+        position: absolute;
+        top: 450px;
+        height: 1000px;
+        width: 400px;
+        left: -50px;
+        overflow: hidden;
+        margin-left: 0px;
+
+        font-family: 'Roboto Slab', serif;
+}
+
+.services h1 {
+        font-size: 60px;
+        color: #F8F8F8;
+
+}
+
+.services h1:first-letter {
+        font-size: 100px;
+        font-weight: 1000;
+}
+
+.services h3 {
+        font-size: 40px;
+        position: relative;
+        top: 150px;
+
+}
+
+.services h3::first-letter {
+        font-size: 70px;
+        font-weight: bolder;
+}
+
+.context {
+        width: 100%;
+        position: absolute;
+        top: 50vh;
+
+}
+
+.context h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 50px;
+}
+
+
+
+hr {
+        height: 10px;
+        border-radius: 20px;
+        position: relative;
+        left: -50px;
+}
+
+::selection {
+        background: #BB69FFD4;
+}
+
+.search {
+        position: absolute;
+        width: 430px;
+        height: 400px;
+        top: 1400px;
+        left: -70px;
+        background: #F5f5ff;
+        font-family: 'Roboto Slab', serif;
+
+}
+
+.search h4 {
+        font-size: 30px;
+        width: 400px;
+        position: relative;
+        left: 30px;
+        margin-top: 50px;
+        color: #2f1c6b;
+}
+
+.search p {
+        font-size: 13px;
+        font-family: 'Roboto Slab', serif;
+        margin: 10px;
+        color: #110055;
+        font-weight: thin;
+
+}
+
+.hr2 {
+        position: relative;
+        left: -75px;
+        width: 420px;
+        right: 110px;
+        top: 200px;
+        height: 5px;
+        border-radius: 0px;
+}
+
+.card a {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 13px;
+}
+
+.about {
+        height: 500px;
+        width: 400px;
+
+        z-index: 999;
+        position: relative;
+        top: 1700px;
+        left: -63px;
+}
+
+footer {
+        background: #f5f5ff;
+        height: 1600px;
+        width: 100%;
+        position: relative;
+        top: 4800px;
+}
+
+.money img {
+        width: 90%;
+        position: relative;
+        top: 4700px;
+        left: 30px;
+
+}
+
+.money h2 {
+        position: relative;
+        top: 4700px;
+        color: #2f1c6b;
+        font-weight: bolder;
+        font-family: 'Roboto Slab', serif;
+}
+
+.bns {
+        position: relative;
+        top: 4725px;
+        left: 60px;
+        width: 300px;
+        background: #673eef;
+        border-radius: 30px;
+        border: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        height: 50px;
+        font-weight: bold;
+
+}
+
+html {
+        scroll-behavior: smooth;
+}
+
+footer a {
+        color: #2f1c6b;
+
+}
+
+footer h6 {
+        font-family: 'Fredoka One', cursive;
+}
+
+footer p {
+
+        font-weight: 300;
+}
+
+i {
+        font-size: 30px;
+        margin: 10px;
+        color: #00096F;
+
+}
+
+footer hr {
+        height: 3px;
+        color: #D9D9DC;
+        margin-left: 80px;
+}
+
+.pgs {
+        font-size: 15px;
+}
+
+
+
+@media screen and (max-width:380px) {
+        div.card-deck {
+                width: 370px;
+        }
+
+        h3.h3 {
+                position: relative;
+                top: -310px;
+        }
+
+        .button {
+                position: relative;
+                top: -300px;
+        }
+
+        .crd {
+                margin-left: -25px;
+        }
+
+        .hr2 {
+                width: 390px;
+        }
+
+        .services h1 {
+                font-size: 55px;
+        }
+
+        div.services {
+                width: 355px;
+                left:-30px;
+        }
+        
+}
