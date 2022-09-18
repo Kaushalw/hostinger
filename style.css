@@ -309,7 +309,7 @@ footer hr {
 
 
 @media screen and (max-width:376px) {
-        div.card-deck {
+                 div.card-deck {
                 width: 370px;
         }
 
@@ -338,10 +338,21 @@ footer hr {
         div.services {
                 width: 355px;
                 left:-30px;
+                height: 1200px;
         }
-div.background{
-Width:100%;
-}
-
+        .background{
+                width:100%;
+        }
+        div.search{
+                width:400px;
+                top:1500px;
+        }
+        #ff{
+                width:380px;
+                
+        }
+        div.card{
+                width:380px;
+        }
         
 }
