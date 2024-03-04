@@ -1,3 +1,5 @@
 # hostinger
 Visit live website
-https://clonehostinger.netlify.app/
+
+ 
+](https://kaushalw.github.io/hostinger
